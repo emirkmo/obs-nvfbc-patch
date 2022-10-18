@@ -17,7 +17,8 @@ Solus: `sudo eopkg install python3 git`
 ` cd obs-nvfbc-patch` \
 ` python3 obs-patch.py`
 #### and follow the instructions. 
-
+The script will try to find things automatically for you, but if it fails, it will ask you to enter the number corresponding to your distro. Additionally you can instead call the script with:
+` python3 obs-patch.py -s` to run it in "silent" mode, where the script won't print anything to the terminal that's not a part of the standard package installs and will run more quickly without pauses. 
 ## License
 
 This repo is under the MIT License.<br>
